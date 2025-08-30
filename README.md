@@ -1,2 +1,2 @@
 # YouPix PHP-SDK
-Documentação https://api.youpix.net/docs
+Documentação completa: https://api.youpix.net/docs
