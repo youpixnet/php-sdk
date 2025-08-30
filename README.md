@@ -1,2 +1,2 @@
-# php-sdk
-YouPix PHP-SDK
+# YouPix PHP-SDK
+Documentação https://api.youpix.net/docs
