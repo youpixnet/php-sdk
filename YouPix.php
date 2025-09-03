@@ -80,7 +80,7 @@ class YouPix
     public function createCobPix($product, $amount, $webhook = null)
     {
         return $this->request("/pix/create/cob", "POST", [
-            "payment" => $product,
+            "product" => $product,
             "amount" => $amount,
             "webhook" => $webhook
         ]);
