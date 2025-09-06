@@ -70,6 +70,6 @@ if ($sendPix["success"]) {
  * Caso queira revogar o token anterior, basta gerar um novo;
  */
 
-//$response_token = $getToken = $youPix->generateToken();
-//
-//print_r($response_token["data"]["token"]);
+$response_token = $getToken = $youPix->generateToken();
+
+print_r($response_token["data"]["token"]);
