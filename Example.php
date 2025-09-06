@@ -42,7 +42,7 @@ $cobPix = $createCobPix = $youPix->createCobPix(
 if ($cobPix["success"]) {
     echo "TXID: {$cobPix["data"]["txid"]}\n";
     echo "QRCODE: {$cobPix["data"]["qrcode"]}\n";
-    echo "COPIA E COLA: {$cobPix["data"]["copy_paste"]}\n";
+    echo "COPIA E COLA: {$cobPix["data"]["code"]}\n";
 } else {
     print_r("Erro ao gerar cobrança pix: {$account["message"]}");
 }
